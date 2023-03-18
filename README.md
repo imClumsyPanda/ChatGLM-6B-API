@@ -18,8 +18,8 @@ ChatGLM-6B 使用了和 ChatGPT 相似的技术，针对中文问答和对话进
 ### 代码调用
 0. 下载本仓库
 ```shell
-git clone https://github.com/THUDM/ChatGLM-6B
-cd ChatGLM-6B
+git clone https://github.com/imClumsyPanda/ChatGLM-6B-API
+cd ChatGLM-6B-API
 ```
 1. 首先运行 chatglm_api 脚本
 - Windows 或 Linux 系统请运行 [chatglm_api.py](chatglm_api.py)
