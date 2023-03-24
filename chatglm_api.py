@@ -35,8 +35,6 @@ def hello():
 def pred_chat(user_msg: str,
               history: List[List[str]],
               max_length: int = 2048,
-              num_beams: int = 1,
-              do_sample: bool = True,
               top_p: float = 0.7,
               temperature: float = 0.95,
               ):
