@@ -1,4 +1,3 @@
-import os
 import platform
 import requests
 
@@ -10,7 +9,6 @@ while True:
     query = input("\n用户：")
     if query == "stop":
         break
-    if query == "clear":
         history = []
         command = 'cls' if os_name == 'Windows' else 'clear'
         os.system(command)
